@@ -36,8 +36,8 @@
     font-size: 32px;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
+    -webkit-animation: type 7s steps(80, end);
+    animation: type 7s steps(80, end);
 }
 @keyframes type {
     from { width: 0; }
