@@ -31,17 +31,23 @@
 .content {
 	position: relative;
 }
-.text-typing {
-    width: 40em;
-    font-size: 32px;
-    white-space:nowrap;
-    overflow:hidden;
-    -webkit-animation: type 7s steps(80, end);
-    animation: type 7s steps(80, end);
+
+.typed-cursor{
+    opacity: 1;
+    animation: blink 0.8s infinite;
 }
-@keyframes type {
-    from { width: 0; }
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
-@-webkit-keyframes type {
-    from { width: 0; }
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

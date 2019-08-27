@@ -1,15 +1,14 @@
-// import Typed from 'typed.js';
-
 $(document).ready(function () {
     svg4everybody({});
+});
 
 
-	// Can also be included with a regular script tag
-	// var options = {
-	//   strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-	//   typeSpeed: 40
-	// }
-
-	// var typed = new Typed(".element", options);
-
+$(function(){
+    $(".element").typed({
+        // strings: ["Lorem 1 ^1000", "Lorem 2 ^1000", "Lorem 3 ^1000"],
+        typeSpeed: 30,
+        backSpeed: 100,
+        startDelay: 1000,
+        stringsElement: $('#typed-strings')
+    });
 });
