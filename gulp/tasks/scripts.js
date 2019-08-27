@@ -9,7 +9,7 @@ module.exports = function () {
     $.gulp.task('libsJS:dev', () => {
         return $.gulp.src([
             'node_modules/svg4everybody/dist/svg4everybody.min.js',
-            // 'node_modules/typed.js/src/typed.js',
+            'node_modules/typed.js/src/typed.js',
             'dev/libs/fontawesome/svg-with-js/js/fontawesome-all.js'
             // 'dev/libs/typed/typed.js'
             ])
@@ -20,7 +20,7 @@ module.exports = function () {
     $.gulp.task('libsJS:build', () => {
         return $.gulp.src([
             'node_modules/svg4everybody/dist/svg4everybody.min.js',
-            // 'node_modules/typed.js/src/typed.js',
+            'node_modules/typed.js/src/typed.js',
             'dev/libs/fontawesome/svg-with-js/js/fontawesome-all.js'
             // 'dev/libs/typed/typed.js'
             ])
