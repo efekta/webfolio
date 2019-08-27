@@ -1,2 +1,2 @@
 # webfolio
-Главная (https://efekta.github.io/webfolio/build/index.html "Главная")
+<a href="https://efekta.github.io/webfolio/build/index.html">Главная</a>
