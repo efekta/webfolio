@@ -1,0 +1,47 @@
+.home {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 60px);
+  padding: 40px 0 0 40px;
+}
+.tags {
+  position: absolute;
+}
+.tags-top {
+	top: 50px;
+	left: 50px;
+}
+.tags-bottom {
+	bottom: 50px;
+	left: 50px;
+}
+.tags-center {
+	display: none;
+}
+.tag {
+  display: block;
+  font-family: 'labelleaurore', cursive;
+  color: #515152;
+  font-size: 18px;
+}
+.tag_two {
+  padding: 0 0 0 30px;
+}
+.content {
+	position: relative;
+}
+.text-typing {
+    width: 40em;
+    font-size: 32px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+@keyframes type {
+    from { width: 0; }
+}
+@-webkit-keyframes type {
+    from { width: 0; }
+}

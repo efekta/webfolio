@@ -11,6 +11,7 @@ html(lang="ru-RU")
 		<![endif]-->
 		meta(name="viewport" content="width=device-width,initial-scale=1")
 		meta(name="keywords" content="")
+		link(href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet")
 		link(rel="stylesheet" type='text/css' href="static/css/styles.min.css")
 
 		<!--[if lt IE 9]>
@@ -18,9 +19,9 @@ html(lang="ru-RU")
 		<![endif]-->
 	body(class=pageClass)
 		.wrapper
+			block content
 			include ../modules/navbar/navbar
-			.content
-				block content
+			include ../modules/home/home
 		script(src="static/js/jquery-3.3.1.min.js")
 		script(src="static/js/libs.min.js")
 		script(src="static/js/main.js")

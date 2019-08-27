@@ -4,11 +4,12 @@
 @import "utils/fonts";
 
 html {
-  font-size: $base-font-size;
   height: 100%;
+  font-size: $base-font-size;
+  color: $white;
 }
 
-body { height: 100%; }
+body { height: 100%; font-family: 'etelkamonospace', monospace;}
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
@@ -18,7 +19,7 @@ ul, li {
   padding: 0;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; transition: all .3s; }
 
 p { margin: 0; }
 
@@ -40,13 +41,15 @@ button { outline: none; }
 
 *, *:before, *:after { box-sizing: border-box; }
 
-
 .wrapper {
   position: relative;
+  display: flex;
   width: 100vw;
   height: 100vh;
+  min-height: 500px;
   background-color: #252627;
 }
+
 
 
 //Модули
