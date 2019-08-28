@@ -14,3 +14,11 @@ $(function(){
         stringsElement: $('#typed-strings')
     });
 });
+
+$(function(){
+    $('.burger').on('click', function (e) {
+      $('.main-nav').toggleClass('show');
+      $('.burger').toggleClass('open');
+    })
+});
+

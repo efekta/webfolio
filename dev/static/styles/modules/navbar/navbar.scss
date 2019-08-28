@@ -88,11 +88,14 @@
 	    top: 58px;
 	    right: -2000px;
 	    background-color: #181818;
-		transition: all .3s ease-out;
+		transition: all .5s ease-out;
 	    ul {
 			display: flex;
     		justify-content: space-around;
 	    }
+	}
+	.main-nav.show {
+		right: 0;
 	}
 	.contacts-list {
 		display: none;
@@ -102,6 +105,21 @@
 	}
 	.burger {
 		display: flex;
+	}
+	.burger.open {
+		span {
+			width: 70%;
+		}
+		span:last-child {
+			display: none;
+		}
+		span:first-child {
+			transform: rotate(45deg);
+			margin-bottom: 0;
+		}
+		span:nth-child(2n) {
+			transform: rotate(-45deg);
+		}
 	}
 }
 
