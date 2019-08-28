@@ -3,3 +3,6 @@
 
 node_modules
 /*.exe.stackdump
+package-lock.json
+
+yarn.lock
