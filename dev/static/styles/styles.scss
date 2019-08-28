@@ -9,7 +9,7 @@ html {
   color: $white;
 }
 
-body { height: 100%; font-family: 'etelkamonospace', monospace;}
+body { height: 100%; font-family: 'etelkamonospace', monospace; overflow-x: hidden;}
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
@@ -19,7 +19,7 @@ ul, li {
   padding: 0;
 }
 
-a { text-decoration: none; transition: all .3s; }
+a { text-decoration: none; cursor: pointer; transition: all .3s; }
 
 p { margin: 0; }
 
