@@ -5,6 +5,10 @@
   width: calc(100% - 60px);
   padding: 40px 0 0 40px;
 }
+.title {
+	position: relative;
+	padding-top: 30px;
+}
 .tags {
   position: absolute;
 }
@@ -16,9 +20,9 @@
 	bottom: 50px;
 	left: 50px;
 }
-.tags-center {
-	display: none;
-}
+// .tags-center {
+// 	display: none;
+// }
 .tag {
   display: block;
   font-family: 'labelleaurore', cursive;
@@ -29,7 +33,8 @@
   padding: 0 0 0 30px;
 }
 .content {
-	position: relative;
+// 	position: relative;
+	padding: 0 90px;
 }
 
 .typed-cursor{
